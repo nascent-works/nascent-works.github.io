@@ -1,0 +1,53 @@
+@import "normalize";
+
+section {
+  height: 100vh;
+  position: relative;
+  margin-top: -20px;
+
+  .middle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    margin: auto;
+    text-align: center;  
+  }
+
+  .we-do {
+    @extend .middle;
+    top: 40%;
+    text-align: left;
+    margin: 0 0 0 20%;
+  }
+
+  .next-section {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 50%;
+    a {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.88;
+      letter-spacing: 1.2px;
+      color: #333333; 
+      text-decoration: none;
+    }
+    div {
+      margin: 0.5rem 0 0.5rem 0; 
+      height: 3rem;
+      width: 50%;
+      border-right: 1px solid #333333;
+    }
+  }
+  .next-section-right {
+    @extend .next-section;
+    margin-left: 50%;    
+  }
+}
+
+.colored {
+    opacity: 0.7;
+    background-image: linear-gradient(to right, #92fe9d, #00c9ff), linear-gradient(to top, #ff6e02, #ffff00 50%, #ff6d00);
+}
