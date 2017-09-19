@@ -1,5 +1,10 @@
 @import "normalize";
 
+body {
+  background-image: url('/assets/img/bckground-logo-patern-2.svg');
+  background-size: 100%;
+}
+
 section {
   height: 100vh;
   position: relative;
@@ -11,7 +16,7 @@ section {
     transform: translateY(-50%);
     width: 50%;
     margin: auto;
-    text-align: center;  
+    text-align: center;      
   }
 
   .we-do {
