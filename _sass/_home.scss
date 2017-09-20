@@ -1,8 +1,21 @@
 @import "normalize";
+@import "fonts";
+@import "grid";
 
 body {
   background-image: url('/assets/img/bckground-logo-patern-2.svg');
   background-size: 100%;
+  background-position: 0% 20%;
+  font-family: $body-font;
+  color: $font-color; 
+}
+
+h1, h2, h3, h4 {
+  font-family: $header-font;
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 section {
@@ -12,11 +25,14 @@ section {
 
   .middle {
     position: relative;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     width: 50%;
     margin: auto;
-    text-align: center;      
+    text-align: center;
+    p {
+      font-size: 1.4rem;
+    }      
   }
 
   .we-do {
@@ -32,9 +48,10 @@ section {
     text-align: center;
     width: 50%;
     a {
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: bold;
-      line-height: 1.88;
+      font-family: $header-font;
+      line-height: 1.88rem;
       letter-spacing: 1.2px;
       color: #333333; 
       text-decoration: none;
@@ -50,9 +67,50 @@ section {
     @extend .next-section;
     margin-left: 50%;    
   }
+  .logo-blocks{
+    margin-left: 50%;
+    width: 50%;
+    text-align: center;
+  }
+
+  .map {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .vno {
+      position: absolute;
+      left: 55%;
+      bottom: 70%;
+    }
+    .ny {
+      position: absolute;
+      left: 28.7%;
+      bottom: 60%;
+    }
+  }
+}
+
+.logo {
+  width: 12rem;
+  margin: 30px 0 0 10px;
 }
 
 .colored {
-    opacity: 0.7;
-    background-image: linear-gradient(to right, #92fe9d, #00c9ff), linear-gradient(to top, #ff6e02, #ffff00 50%, #ff6d00);
+   // opacity: 0.7;
+    background-image: linear-gradient(to left, rgba(146,254,157,0.7), rgba(0,201,255,0.7));
+}
+
+.address {
+  width: 30%;
+  p {
+    margin: 0.4rem 0;
+  }
+}
+.contact {
+  width: 40%;
+  a {
+    text-decoration: none;
+    color: $font-color;
+  }
 }
