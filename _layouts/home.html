@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu"/>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <section class="colored">
+    <img src="/assets/img/nascent-logo.png" alt="Nascent" class="logo">
+    <div class="middle">
+      <h1>We are Nascent</h1>
+      <p>Technology for your Ideas</p>
+      <p>New York / Vilnius</p>      
+    </div>
+    <div class="next-section">
+      <a href="#we_do">What we do</a>
+      <div></div>
+    </div>
+  </section>
+  <section id="we_do">
+    <div class="we-do">
+      <h2>What we do</h2>
+      <p>- Modernizing businesses</p>
+      <p>- Crafting unique and intuitive experiences</p>
+      <p>- Bringing ideas to life</p>
+    </div>
+    <div class="next-section-right">
+      <a href="#blocks">Building blocks</a>
+      <div></div>
+    </div>
+  </section>
+  <section id="blocks" class="colored">
+    <div class="logo-blocks">
+      <h2>Building blocks</h2>
+      <div class="row">
+        {% for logo in site.data.logos%}
+        <div class="col block">
+          <img class="content" src="/assets/img/{{logo.img}}"></img>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="next-section">
+      <a href="#locations">Locations</a>
+      <div></div>
+    </div>
+  </section>
+  <section id="locations">
+    <h2>Locations</h2>
+    <div class="map">
+      <img src="/assets/img/map@2x.png" alt="">
+      <div class="ny">New York</div>
+      <div class="vno">Vilnius</div>
+    </div>
+    <div class="row colored">
+      <div class="col contact">
+        <h3>Drop Us a Line</h3>
+        <p><a href="mailto:info@nascent-works.com">info@nascent-works.com</a></p>
+      </div>
+      <div class="col address">
+        <h3>New York</h3>
+        <p>32 W 38TH Street, 2nd FL</p>
+        <p>NEW YORK</p>
+        <p> NY 10018</p>
+        <p>USA</p>
+      </div>
+      <div class="col address">
+        <h3>Vilnius</h3>
+        <p>Sauletekio 15 - 608</p>
+        <p>Vilnius</p>
+        <p>10224</p>
+        <p>Lithuania</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

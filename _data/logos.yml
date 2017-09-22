@@ -1,0 +1,24 @@
+- name: kafka
+  img: kafka.svg
+- name: html
+  img: html5.svg
+- name: amazon
+  img: aws-logo.svg
+- name: javascript
+  img: javascript.svg
+- name: nodejs
+  img: nodejs.svg
+- name: Mongo DB
+  img: mongodb.svg
+- name: Vue.js
+  img: vuejs.svg
+- name: MySQL
+  img: mysql.svg
+- name: Java
+  img: java.svg
+- name: Docker
+  img: docker-logo.svg
+- name: typescript
+  img: typescript.svg
+- name: google compute engine
+  img: google-compute-engine-logo.svg
