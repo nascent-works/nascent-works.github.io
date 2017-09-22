@@ -71,10 +71,30 @@ section {
     margin-left: 50%;
     width: 50%;
     text-align: center;
+    padding-top: 2rem;
+
+    .block {
+      width: 18%;
+      padding-bottom: 18%;
+      border: solid 0.2rem #85f9a6;
+      margin: 1%;
+      overflow:hidden;
+      position: relative;
+
+      .content {
+        position: absolute;
+        height: 90%;
+        width: 90%;
+        padding: 5% 5%;
+        left: 0;
+      }
+    }
   }
 
   .map {
     position: relative;
+    width: 80%;
+    left: 10%;
     img {
       width: 100%;
     }

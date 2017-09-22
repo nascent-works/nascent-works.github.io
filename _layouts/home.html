@@ -6,7 +6,7 @@
 </head>
 <body>
   <section class="colored">
-    <img src="/assets/img/logo-header.svg" alt="Nascent" class="logo">
+    <img src="/assets/img/nascent-logo.png" alt="Nascent" class="logo">
     <div class="middle">
       <h1>We are Nascent</h1>
       <p>Technology for your Ideas</p>
@@ -32,6 +32,13 @@
   <section id="blocks" class="colored">
     <div class="logo-blocks">
       <h2>Building blocks</h2>
+      <div class="row">
+        {% for logo in site.data.logos%}
+        <div class="col block">
+          <img class="content" src="/assets/img/{{logo.img}}"></img>
+        </div>
+        {% endfor %}
+      </div>
     </div>
     <div class="next-section">
       <a href="#locations">Locations</a>
