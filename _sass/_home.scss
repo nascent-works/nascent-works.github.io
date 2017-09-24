@@ -182,3 +182,11 @@ section {
     color: $font-color;
   }
 }
+
+.copyright {
+  p {
+    border-top: 1px solid rgba(51, 51, 51, 0.2);
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+}
