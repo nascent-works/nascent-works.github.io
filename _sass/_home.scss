@@ -1,6 +1,18 @@
 @import "normalize";
 @import "fonts";
 @import "grid";
+@import "responsive";
+
+
+html {
+
+  @include breakpoint($sm) {
+    font-size: 32px;
+  }
+  @include breakpoint($md){
+    font-size: 16px;
+  }
+}
 
 body {
   background-image: url('/assets/img/bckground-logo-patern-2.svg');
@@ -21,14 +33,12 @@ h1 {
 section {
   height: 100vh;
   position: relative;
-  margin-top: -20px;
 
   .middle {
     position: relative;
     top: 40%;
     transform: translateY(-50%);
-    width: 50%;
-    margin: auto;
+//    margin: auto;
     text-align: center;
     p {
       font-size: 1.4rem;
@@ -52,7 +62,7 @@ section {
       font-weight: bold;
       font-family: $header-font;
       line-height: 1.88rem;
-      letter-spacing: 1.2px;
+      letter-spacing: 0.1rem;
       color: #333333; 
       text-decoration: none;
     }
@@ -68,24 +78,33 @@ section {
     margin-left: 50%;    
   }
   .logo-blocks{
-    margin-left: 50%;
-    width: 50%;
+    
     text-align: center;
     padding-top: 2rem;
 
+    @include breakpoint($sm){
+      margin-left: 0;
+      width: 100%;
+    }
+
+    @include breakpoint($md){
+      margin-left: 50%;
+      width: 50%;
+    }
+
     .block {
-      width: 18%;
-      padding-bottom: 18%;
-      border: solid 0.2rem #85f9a6;
-      margin: 1%;
+      width: 12%;
+      padding-bottom: 12%;
+      //border: solid 0.2rem #85f9a6;
+      margin: 2%;
       overflow:hidden;
       position: relative;
 
       .content {
         position: absolute;
-        height: 90%;
-        width: 90%;
-        padding: 5% 5%;
+        max-height: 80%;
+        max-width: 80%;
+        padding: 10% 10%;
         left: 0;
       }
     }
@@ -121,14 +140,43 @@ section {
     background-image: linear-gradient(to left, rgba(146,254,157,0.7), rgba(0,201,255,0.7));
 }
 
+#locations {
+  h2 {
+    margin-top: 2rem;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.address-line {
+  @extend .row;
+  @extend .colored;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .address {
-  width: 30%;
+  
   p {
     margin: 0.4rem 0;
   }
+  @include breakpoint($sm) {
+    width: 100%;
+  }
+  @include breakpoint($md) {
+    width: 30%;
+  }
 }
 .contact {
-  width: 40%;
+
+  @include breakpoint($sm) {
+    width: 100%;
+  }
+   @include breakpoint($md) {
+    width: 40%;
+  }
+  
   a {
     text-decoration: none;
     color: $font-color;
