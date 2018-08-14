@@ -43,6 +43,7 @@
       <div class="row">
         {% for logo in site.data.logos%}
         <div class="col block">
+          <div class="tooltip">{{logo.name}}</div>
           <img class="content" src="/assets/img/{{logo.img}}"></img>
         </div>
         {% endfor %}

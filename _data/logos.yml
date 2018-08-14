@@ -1,16 +1,16 @@
 - name: Kafka
   img: kafka.png
-- name: Html
-  img: html-5.png
-- name: Amazon WS
+- name: Amazon Webservices
   img: aws.png
-- name: javascript
+- name: Google Cloud
+  img: google-cloud.png
+- name: Javascript
   img: javascript.png
 - name: NodeJS
   img: nodejs.png
 - name: Mongo DB
   img: mongodb.png
-- name: Vue.js
+- name: Vue.Js
   img: vuejs.png
 - name: MySQL
   img: mysql.png
@@ -20,8 +20,8 @@
   img: docker.png
 - name: Typescript
   img: typescript.png
-- name: Google compute engine
-  img: google-engine.png
+- name: Html 5
+  img: html-5.png
 - name: CSS 3
   img: css-3.png
 - name: React
@@ -32,8 +32,6 @@
   img: bootstrap.png
 - name: Sass
   img: sass.png
-- name: Ngrx store
-  img: ngrx-store.png
 - name: SQL Server
   img: sql-server.png
 - name: Jenkins
@@ -44,3 +42,7 @@
   img: scala.png
 - name: Angular 
   img: angular.png
+- name: Keras
+  img: keras-logo-small-2018.png
+- name: Tensorflow
+  img: Tensorflow_logo.png
