@@ -97,7 +97,7 @@ section {
       padding-bottom: 12%;
       //border: solid 0.2rem #85f9a6;
       margin: 2%;
-      overflow:hidden;
+      overflow: visible;
       position: relative;
 
       .content {
@@ -106,6 +106,25 @@ section {
         max-width: 80%;
         padding: 10% 10%;
         left: 0;
+        right: 0;
+        margin: auto;
+      }
+      .tooltip {
+        position: absolute;
+        margin: auto;
+        margin-top: -20px;
+        top: 0px;
+        left: 0;
+        right: 0;
+        visibility: hidden;
+        background-color: #333333;
+        color: #ffff;
+        z-index: 5;
+      }
+      &:hover {
+        .tooltip {
+          visibility: visible;
+        }
       }
     }
   }
