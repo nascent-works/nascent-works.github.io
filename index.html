@@ -1,3 +1,306 @@
 ---
-layout: home
+layout: default
+bodyClass: page-home
 ---
+<section id="landing" class=" h-100">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-5">
+                <h1>We turn your ideas into digital products</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-12">
+                <h2>About Nascent</h2>
+                <p>
+                    Nascent is a technology investor with a focus on experimental digital products. Our key areas of
+                    interest include AI solutions (Computer Vision, object recognition), cloud services, e sports,
+                    gaming and mobile applications.
+                </p>
+                <p>
+                    We also foster relationships with early-stage startups and entrepreneurs and act as
+                    technology investor to bring great ideas into life. Nascent is headquartered in New York,
+                    USA, with R&D office in Sunrise Valley Tech Park, Vilnius, Lithuania.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="services">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>What we do</h2>
+                </div>
+            </div>
+            <nav id="service_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#cloud_service"
+                            aria-expanded="false"><span>Cloud services</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-toggle="collapse" href="#product_service"><span>Product
+                                development</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-toggle="collapse" href="#tech_service"><span>Technology
+                                investment</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container collapse show" data-parent="#services" id="cloud_service">
+            <div class="row">
+                <div class="col-lg-10 col-12">
+                    <h3>Cloud services</h3>
+                    <p class="cat">Cloud solutions for digital business transformation</p>
+                    <p>We design, implement and deploy distributed serverless and machine learning applications to
+                        Google Cloud and Amazon Web Services. </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                {% for service in site.data.services %}
+                <div class="col-12 col-md-6 col-xl-4 mb-4">
+                    <div class="service">
+                        <img src="{{service.icon}}" />
+                        <h4>{{service.title}}</h4>
+                        <p>{{service.text}}</</p> </div> </div> {% endfor %} </div> <div class="row">
+                            <div class="col-lg-10 col-12">
+                                <div class="desc">
+                                    <p>
+                                        Nascent cloud solutions serves both current cloud platform users and newcomer
+                                        clients
+                                        exploring
+                                        cloud opportunities. We provide cloud strategy development, cloud service
+                                        management,
+                                        cloud
+                                        solution architecture and development solutions. From new product launches,
+                                        companies
+                                        focused on
+                                        growth to global Fortune 500 clients, our expertise helps to supercharge your
+                                        business.
+                                    </p>
+                                    <a href="#contact" class="primary-btn">Get in touch</a>
+                                    <div class="foot">Our expertise in cloud computing helps to develop world class <a
+                                            class="service_nav_link" data-target="product_service">products</a>
+                                        and
+                                        provide <a class="service_nav_link" data-target="tech_service">technology
+                                            investment</a>.
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="container collapse" data-parent="#services" id="product_service">
+                    <div class="row">
+                        <div class="col-lg-10 col-12">
+                            <h3>Product development</h3>
+                            <p class="cat">Embracing the multi-platform nature of digital business</p>
+                            <p>Cloud computing is instrumental in bringing today’s multi-platform global digital
+                                products to
+                                life. </p>
+
+                            <p>Gone are the days when you needed just a pair of mobile apps and a web-service. To
+                                fullyembrace
+                                the multi-platform nature of the digital landscape, you need to think about
+                                afuture-proof
+                                back-end which enables you to support new platforms when needs occur. </p>
+
+                            <p> A smart TV app to deliver your service to a bigger screen? A native Windows and Mac
+                                software to
+                                bring additional capabilities? And maybe some development for IoTs is also on the
+                                roadmap...
+                            </p>
+
+                            <p> At Nascent we lay the foundation in the cloud to enable fluent customer experience over
+                                multiple
+                                platforms and screens. In addition, our multi-platform development capabilities enable
+                                you to
+                                create truly multi-platform digital products. Furthermore, our industry relations allows
+                                us to
+                                quickly raise resources for very specific development tasks. </p>
+
+                            <p> You must not worry about application interoperability or different developer team
+                                management -we
+                                take care of that! </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-12">
+                            <div class="desc">
+                                <p>
+                                    Nascent cloud solutions serves both current cloud platform users and newcomer
+                                    clients
+                                    exploring
+                                    cloud opportunities. We provide cloud strategy development, cloud service
+                                    management,
+                                    cloud
+                                    solution architecture and development solutions. From new product launches,
+                                    companies
+                                    focused on
+                                    growth to global Fortune 500 clients, our expertise helps to supercharge your
+                                    business.
+                                </p>
+                                <a href="#contact" class="primary-btn">Get in touch</a>
+                                <div class="foot">
+                                    Want to take your digital products
+                                    to the next step? Learn more about our <a class="service_nav_link"
+                                        data-target="cloud_service">cloud
+                                        services</a> for
+                                    expanded reach
+                                    and flexibility,
+                                    as well as our <a class="service_nav_link" data-target="tech_service">technology
+                                        investment</a>
+                                    opportunities.
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container collapse" data-parent="#services" id="tech_service">
+                    <div class="row">
+                        <div class="col-lg-10 col-12">
+                            <h3>Technology investment</h3>
+                            <p class="cat">Technology resources to make things happen</p>
+                            <p>Do you have an idea for a killer app? Do you lack the funds or technological expertise to
+                                take
+                                your product to the next level? At Nascent we turn your ideas into products via
+                                technological
+                                investment.</p>
+
+                            <p>We act as technology investor: from validating your business idea, crafting a MVP, to
+                                final
+                                product release by providing full development capabilities required for your project.
+                            </p>
+
+                            <p>We provide technology investment to both early-stage startups, as well as established
+                                businesses
+                                developing new services or in need of digital transformation. Every investment is
+                                evaluated on
+                                project basis. Our core interests cover the fields of AI (Computer Vision, object
+                                recognition),
+                                cloud computing, esports, gaming and gamification.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-12">
+                            <div class="desc">
+                                <p>
+                                    Nascent cloud solutions serves both current cloud platform users and newcomer
+                                    clients
+                                    exploring
+                                    cloud opportunities. We provide cloud strategy development, cloud service
+                                    management,
+                                    cloud
+                                    solution architecture and development solutions. From new product launches,
+                                    companies
+                                    focused on
+                                    growth to global Fortune 500 clients, our expertise helps to supercharge your
+                                    business.
+                                </p>
+                                <a href="#contact" class="primary-btn">Get in touch</a>
+                                <div class="foot">
+                                    Our Our
+                                    expertise in <a class="service_nav_link" data-target="cloud_service">cloud
+                                        services</a> and <a class="service_nav_link"
+                                        data-target="product_service">product
+                                        development</a> makes Nascent a perfect technology partner.
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cav_nav">
+            <a class="custom_btn_left" href="javascript:void(0);">
+                <img src="assets/svg/left.svg" alt="">
+            </a>
+            <a class="custom_btn_right" href="javascript:void(0);">
+                <img src="assets/svg/right.svg" alt="">
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-10 owl-carousel">
+                {% for case in site.data.portfolio %}
+                <div class="case">
+                    <div class="image">
+                        <img src="{{case.img_thumb}}" alt="" class="w-100">
+                    </div>
+                    <div class="desc">
+                        <h3>{{case.title}}</h3>
+                        <i>{{case.category}}</i>
+                        <p>{{case.text}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <h2>Get in touch</h2>
+        <div class="row">
+            <div class="col-12 col-lg-9">
+                <div class="form-block">
+                    <p>Contact us via email:</p>
+                    <a class="mail" href="info@nascent-works.com">info@nascent-works.com</a>
+                    <p>Or fill in the form:</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-5">
+                            <input placeholder="Name:">
+                            <input placeholder="Email:">
+                            <input placeholder="Organizaiton:">
+                        </div>
+                        <div class="col-12 col-lg-7 pr-auto pr-auto pr-lg-5">
+                            <textarea name="" placeholder="Message:"></textarea>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <a href="javascript:void(0);" class="primary-btn ">Send</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="addresses">
+                    <div class="address">
+                        <h4>New York</h4>
+                        <p>153 WEST 27TH STREET,<br>
+                            SUITE #503<br>
+                            NEW YORK<br>
+                            NY 10001<br>
+                            USA</p>
+                    </div>
+                    <div class="address">
+                        <h4>Vilnius</h4>
+                        <p>Sauletekio 15 - 608<br>
+                            Vilnius<br>
+                            10224<br>
+                            Lithuania</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

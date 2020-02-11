@@ -1,0 +1,18 @@
+- title: Simracing.GP
+  category: Technology Investment
+  text: We are developing an esports platform for sim racing community. The platform will simplify thehosting of racing leagues and tournaments, feature automatic race result collection and racer performance data tracking. The platform will include experimental in-game economy to foster relations between sponsors, teams, players and modding community. The project is developed in partnership with RaceDepartment- the largest sim racing community in the world.
+  img_thumb: assets/img/thumb/sim.jpg
+  img_full: assets/img/sim.jpg
+
+- title: Warframe Watch
+  category: Product development
+  text: Warframe is one of the most popular MMORPG games with 50M+ user install base. More than50K users are playing the game at any given time. Our smartwatch companion app aims toimprove player experience.
+  img_thumb: assets/img/thumb/war.jpg
+  img_full: assets/img/war.jpg
+
+
+- title: RaceLens
+  category: Product development
+  text: Race Lens is an AI based picture sorting tool for racing events. The platform identifies bib numbers of contestants and utilizes AI algorithms to sort uploaded event pictures without any manual tagging - enabling participants to discover the shots where they are pictured.
+  img_thumb: assets/img/thumb/race.jpg
+  img_full: assets/img/race.jpg
