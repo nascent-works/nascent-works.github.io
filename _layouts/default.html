@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
 </head>
 
 <body class='{{page.bodyClass}}'>
@@ -20,7 +20,7 @@
         <nav id="main-nav" class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <a href="/" class="navbar-brand">
-                    <img src="{{site.data.settings.logo}}" alt="LOGO" class="logo">
+                    <img src="{{site.url}}/{{site.data.settings.logo}}" alt="LOGO" class="logo">
                 </a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@
     </header>
     {{content}}
     <footer>
-        <div class="foot_block container">
+        <div class="foot_block container-fluid">
             <div class="row text-center">
                 <div class="col">
                     <p>{{site.data.settings.copyrights}}</p>
@@ -69,6 +69,6 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="{{site.url}}/assets/js/main.js"></script>
 
 </html>
