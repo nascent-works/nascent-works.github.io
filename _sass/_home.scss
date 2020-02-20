@@ -414,7 +414,6 @@ header {
 
 footer {
     width: 100%;
-
     p {
         margin-bottom: 0px;
         color: $black;
@@ -428,19 +427,22 @@ footer {
     }
 
 }
-
-.post_image {
-    background: #02CAFE;
-    margin-top: 150px;
-    margin-bottom: 50px;
-
-    img {
-        object-fit: cover;
-        opacity: 0.7;
-        height: 40vh;
-        width: 100%;
+#post {
+    min-height: 100%;
+    .post_image {
+        background: #02CAFE;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    
+        img {
+            object-fit: cover;
+            opacity: 0.7;
+            height: 40vh;
+            width: 100%;
+        }
     }
 }
+
 
 @media (min-width: 1600px) {
     #services nav {
