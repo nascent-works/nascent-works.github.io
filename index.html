@@ -267,19 +267,30 @@ bodyClass: page-home
                     <p>Contact us via email:</p>
                     <a class="mail" href="info@nascent-works.com">info@nascent-works.com</a>
                     <p>Or fill in the form:</p>
-                    <div class="row">
-                        <div class="col-12 col-lg-5">
-                            <input placeholder="Name:">
-                            <input placeholder="Email:">
-                            <input placeholder="Organizaiton:">
-                        </div>
-                        <div class="col-12 col-lg-7 pr-auto pr-auto pr-lg-5">
-                            <textarea name="" placeholder="Message:"></textarea>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <a href="javascript:void(0);" class="primary-btn ">Send</a>
-                        </div>
-                    </div>
+                    <!-- <div class="row"> -->
+                        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1YzMSyOPd9Nz5k2zQROxqHXo0CrRbuTGnecslXeXyRh8/formResponse?" class="row" target="hidden_iframe" onsubmit="submitted=true;">       
+                             <div class="col-12 col-lg-5">
+                                <input placeholder="Name:" name="entry.1463375896" id="entry.1463375896">
+                                <input placeholder="Email:" name="entry.1509569501" id="entry.1509569501">
+                                <input placeholder="Organization:" name="entry.270412472" id="entry.270412472">
+                            </div>
+                            <div class="col-12 col-lg-7 pr-auto pr-auto pr-lg-5">
+                                <textarea name="" placeholder="Message:" name="entry.1866717871" id="entry.1866717871"></textarea>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <a href="#contact" onclick="document.getElementById('gform').submit();" class="primary-btn ">Send</a>
+                            </div>
+                        </form>
+                        <script type="text/javascript">var submitted=false;</script>
+                        <script type="text/javascript">
+                            // var form = document.getElementById('gform');
+                            // form.on('submit', function(e) {
+                            // form.fadeOut(2000);
+                            // form.prepend('Your submission has been processed...');
+                            // });
+                        </script>
+                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                    <!-- </div> -->
                 </div>
             </div>
             <div class="col-12 col-lg-3">
@@ -294,7 +305,7 @@ bodyClass: page-home
                     </div>
                     <div class="address">
                         <h4>Vilnius</h4>
-                        <p>Sauletekio 15 - 608<br>
+                        <p>Sauletekio 15 - 417<br>
                             Vilnius<br>
                             10224<br>
                             Lithuania</p>
