@@ -267,6 +267,7 @@ header {
         margin-top: 45px;
         margin-bottom: 45px
     }
+
     .foot {
         font-size: 30px;
         font-weight: 400;
@@ -274,14 +275,15 @@ header {
         a {
             color: $black;
             cursor: pointer;
-            border-bottom:2px solid $black;
+            border-bottom: 2px solid $black;
             font-weight: 500;
 
         }
-        a:hover{            
-            border-bottom:4px solid $black;
+
+        a:hover {
+            border-bottom: 4px solid $black;
         }
-        
+
     }
 }
 
@@ -314,6 +316,7 @@ header {
 
     .case {
         height: 100%;
+
         .desc {
             padding: 40px 45px 75px 40px;
         }
@@ -411,7 +414,6 @@ header {
 
 footer {
     width: 100%;
-
     p {
         margin-bottom: 0px;
         color: $black;
@@ -425,6 +427,22 @@ footer {
     }
 
 }
+#post {
+    min-height: 100%;
+    .post_image {
+        background: #02CAFE;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    
+        img {
+            object-fit: cover;
+            opacity: 0.7;
+            height: 40vh;
+            width: 100%;
+        }
+    }
+}
+
 
 @media (min-width: 1600px) {
     #services nav {
@@ -439,10 +457,14 @@ footer {
 }
 
 @media (max-width: 768px) {
-    #landing h1 {font-size:60px;}
+    h1 {
+        font-size: 60px;
+    }
+
     h2 {
         font-size: 50px;
     }
+
     header nav.navbar {
         padding: 20px;
     }
@@ -459,17 +481,22 @@ footer {
     #contact {
 
         .form-block {
-            textarea, a{
-            margin-top: 25px;
+
+            textarea,
+            a {
+                margin-top: 25px;
             }
         }
     }
-    #services .foot { 
+
+    #services .foot {
         font-size: 25px;
     }
+
     #portfolio .case .desc {
         padding: 30px 35px 65px 30px;
     }
+
     header nav {
         padding: 20px 150px;
         border-bottom: 1px solid;
@@ -478,18 +505,25 @@ footer {
         -o-transition: all .2s linear;
         transition: all .2s linear;
     }
+
     body {
         background-repeat: no-repeat;
         background-position: 100% 80px;
-    
+
     }
 }
 
-@media (max-width: 330px) { 
-    #landing  h1 {font-size:45px;
-        line-height: 65px;}
-        h2 {
-            font-size: 45px;
-        }
-        h3 {font-size: 33px;}
+@media (max-width: 330px) {
+    h1 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 33px;
+    }
 }

@@ -241,7 +241,7 @@ bodyClass: page-home
         </div>
         <div class="row">
             <div class="col-12 col-lg-10 owl-carousel">
-                {% for case in site.data.portfolio %}
+                {% for case in site.posts %}
                 <div class="case">
                     <div class="image">
                         <img src="{{case.img_thumb}}" alt="" class="w-100">
@@ -249,7 +249,8 @@ bodyClass: page-home
                     <div class="desc">
                         <h3>{{case.title}}</h3>
                         <i>{{case.category}}</i>
-                        <p>{{case.text}}</p>
+                        <p>{{case.excerpt}}</p>
+                        <a class="primary-btn d-none" target="_blank" href="{{case.url}}">learn more</a>
                     </div>
                 </div>
                 {% endfor %}
