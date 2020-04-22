@@ -1,8 +1,6 @@
 $primary: #A5FDB2;
 $alt: #80E4FE;
 $black: #333333;
-
-
 body {
     font-family: 'Rubik';
     background-image: url(/assets/svg/bg.svg);
@@ -46,21 +44,16 @@ p {
     line-height: 30px;
 }
 
-
 header {
     nav.navbar {
         padding: 70px 150px;
-
         .nav-link {
             color: $black;
             margin-right: 20px;
-
             &:hover,
             &.active {
                 font-weight: 500;
-
             }
-
             &:after {
                 display: inline-block;
                 content: "";
@@ -73,7 +66,6 @@ header {
                 -o-transition: all .2s linear;
                 transition: all .2s linear;
             }
-
             &:hover:after,
             &.active:after {
                 width: 150px;
@@ -81,12 +73,10 @@ header {
                 margin-right: -20px;
             }
         }
-
         -webkit-transition: all .2s linear;
         -o-transition: all .2s linear;
         transition: all .2s linear;
     }
-
     nav.sticky {
         padding: 20px 150px;
         border-bottom: 1px solid;
@@ -106,12 +96,10 @@ header {
     font-weight: 500;
     display: inline-block;
     color: black;
-
     &:hover {
         text-decoration: none;
         color: $black;
     }
-
     &:after {
         display: inline-block;
         content: "";
@@ -124,7 +112,6 @@ header {
         -o-transition: all .2s linear;
         transition: all .2s linear;
     }
-
     &:hover:after {
         margin: 5px 0px 5px 45px;
         width: 50px;
@@ -147,63 +134,50 @@ header {
 }
 
 #services {
-
     p.cat {
         margin-bottom: 30px;
         font-style: italic;
         font-weight: 500;
     }
-
     background-color: $primary;
     margin-top: 160px;
     padding-top: 175px;
     padding-bottom: 160px;
-
     h2 {
         margin-bottom: 45px;
     }
-
     i {
         font-weight: 500;
     }
-
     nav {
         .nav-item {
             margin-bottom: 20px;
         }
-
         .nav-link {
             color: $black;
             font-weight: 400;
             display: inline-block;
-
-            :hover {
+             :hover {
                 font-weight: 500;
-
             }
-
             &:not(.collapsed) {
                 cursor: default;
             }
-
             &:not(.collapsed) span {
                 display: none;
             }
-
             &:before,
             &:after {
                 display: inline-block;
                 position: relative;
                 background: $black;
             }
-
             &:after {
                 content: "";
                 height: 2px;
                 width: 0;
                 margin: 5px 0px;
             }
-
             &:before {
                 margin-bottom: 3px;
                 margin-right: 5px;
@@ -213,7 +187,6 @@ header {
                 border-radius: 50%;
                 margin-right: 15px;
             }
-
             &:hover:before,
             &:not(.collapsed):before {
                 margin-bottom: 2px;
@@ -224,7 +197,6 @@ header {
                 transition: all .2s linear;
                 visibility: visible;
             }
-
             &:not(.collapsed):after {
                 width: 150px;
                 visibility: visible;
@@ -234,109 +206,80 @@ header {
                 visibility: visible;
             }
         }
-
     }
-
-
-
     .service {
-
         padding: 50px 30px 40px 30px;
         text-align: center;
         background-color: white;
         border-radius: 10px;
         height: 100%;
-
         h4 {
             margin-top: 30px;
             margin-bottom: 20px;
-
         }
-
         img {
             width: 100px;
         }
-
     }
-
     .desc {
         margin-top: 30px;
     }
-
     .primary-btn {
         margin-top: 45px;
         margin-bottom: 45px
     }
-
     .foot {
         font-size: 30px;
         font-weight: 400;
-
         a {
             color: $black;
             cursor: pointer;
             border-bottom: 2px solid $black;
             font-weight: 500;
-
         }
-
         a:hover {
             border-bottom: 4px solid $black;
         }
-
     }
 }
 
 #portfolio {
-
     padding-top: 175px;
     padding-bottom: 160px;
     overflow-x: hidden;
-
     .cav_nav {
         margin-bottom: 35px;
-
         a {
             text-decoration: none;
         }
-
         .custom_btn_left {
             margin-right: 20px;
-
         }
     }
-
     .owl-carousel .owl-stage-outer {
         width: 170%
     }
-
     h2 {
         margin-bottom: 75px;
     }
-
     .case {
         height: 100%;
-
         .desc {
             padding: 40px 45px 75px 40px;
         }
-
         .image {
             background: #02CAFE;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
-
         i {
             font-size: 20px;
             font-weight: 500;
         }
-
         p {
             margin-top: 30px;
             margin-bottom: 30px;
         }
-
         img {
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
@@ -344,11 +287,9 @@ header {
             object-fit: cover;
             opacity: 0.7;
         }
-
         background:#F8F8F8;
         border-radius: 10px;
     }
-
     .active .case {
         img {
             opacity: 1;
@@ -360,16 +301,13 @@ header {
     background: $alt;
     padding-top: 125px;
     padding-bottom: 170px;
-
     h2 {
         margin-bottom: 50px;
     }
-
     .form-block {
         p {
             margin-bottom: 30px;
         }
-
         a.mail {
             font-size: 30px;
             color: $black;
@@ -377,12 +315,10 @@ header {
             margin-bottom: 60px;
             display: block;
         }
-
         .primary-btn {
             margin-top: 25px;
             height: 60px;
         }
-
         input,
         textarea {
             width: 100%;
@@ -390,26 +326,20 @@ header {
             border-radius: 10px;
             padding-left: 20px;
         }
-
         input {
             height: 60px;
-
             &:not(:last-child) {
                 margin-bottom: 30px;
             }
         }
-
         textarea {
             height: 100%;
             padding-top: 19px;
         }
-
     }
-
     .address {
         margin-top: 55px;
     }
-
 }
 
 footer {
@@ -421,19 +351,17 @@ footer {
         padding: 35px;
         margin: 0px;
     }
-
     .foot_block {
         background-color: #F8F8F8;
     }
-
 }
+
 #post {
     min-height: 100%;
     .post_image {
         background: #02CAFE;
         margin-top: 150px;
         margin-bottom: 50px;
-    
         img {
             object-fit: cover;
             opacity: 0.7;
@@ -443,60 +371,45 @@ footer {
     }
 }
 
-
 @media (min-width: 1600px) {
     #services nav {
         position: absolute;
         left: 170px;
     }
-
     #portfolio .cav_nav {
         left: 170px;
         position: absolute;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1690px) {
+    #services nav {
+        position: absolute;
+        left: 80px;
+    }
+    #portfolio .cav_nav {
+        left: 80px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1200px) {
     h1 {
         font-size: 60px;
     }
-
     h2 {
         font-size: 50px;
     }
-
     header nav.navbar {
         padding: 20px;
     }
-
     .navbar-toggler {
         color: $black;
         border-color: $black;
     }
-
     .navbar-toggler-icon {
         background-image: url("../../assets/svg/nav.svg");
     }
-
-    #contact {
-
-        .form-block {
-
-            textarea,
-            a {
-                margin-top: 25px;
-            }
-        }
-    }
-
-    #services .foot {
-        font-size: 25px;
-    }
-
-    #portfolio .case .desc {
-        padding: 30px 35px 65px 30px;
-    }
-
     header nav {
         padding: 20px 150px;
         border-bottom: 1px solid;
@@ -505,11 +418,29 @@ footer {
         -o-transition: all .2s linear;
         transition: all .2s linear;
     }
-
     body {
         background-repeat: no-repeat;
         background-position: 100% 80px;
+    }
+}
 
+@media (max-width: 768px) {
+    #services .foot {
+        font-size: 25px;
+    }
+    #portfolio .case .desc {
+        padding: 30px 35px 65px 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    #contact {
+        .form-block {
+            textarea,
+            a {
+                margin-top: 25px;
+            }
+        }
     }
 }
 
@@ -518,11 +449,9 @@ footer {
         font-size: 45px;
         line-height: 65px;
     }
-
     h2 {
         font-size: 45px;
     }
-
     h3 {
         font-size: 33px;
     }
