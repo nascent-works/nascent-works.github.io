@@ -39,7 +39,8 @@ h4 {
     font-size: 30px;
 }
 
-p {
+p,
+li {
     font-size: 20px;
     line-height: 30px;
 }
@@ -368,6 +369,33 @@ footer {
             height: 40vh;
             width: 100%;
         }
+    }
+}
+
+.careers {
+    margin-top: 150px;
+
+    h2 {
+        word-break: break-word;
+    }
+
+    .careers-positions {
+        h2:first-child {
+            padding-top: 175px;
+        }
+
+        h2:not(:first-child) {
+            margin-top: 87px;
+            border-top: 1px solid;
+            padding-top: 87px;
+        }
+    }
+
+    #careers-contact {
+        margin-top: 87px;
+        border-top: 1px solid;
+        padding-top: 87px;
+        padding-bottom: 175px;
     }
 }
 
