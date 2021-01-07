@@ -37,13 +37,14 @@ title:  "Careers"
 ## Lead Developer in product team
 
 ### Position requirements:
-*Full stack NodeJs experience:
-*Server side development with Typescript
-*Client side development with one of VueJS, React, Angular
-*SQL databases
+* Full stack NodeJs experience:
+* Server side development with Typescript
+* Client side development with one of VueJS, React, Angular
+* SQL databases
 
 ### Additional Requirements:
-* Serverless development on AWS stackDocker
+* Serverless development on AWS stack
+* Docker
 * NuxtJS
 * CI/CD
 * Unit and integration testing
