@@ -38,9 +38,9 @@ title:  "Careers"
 
 ### Position requirements:
 * Full stack NodeJs experience:
-* Server side development with Typescript
-* Client side development with one of VueJS, React, Angular
-* SQL databases
+ * Server side development with Typescript
+ * Client side development with one of VueJS, React, Angular
+ * SQL databases
 
 ### Additional Requirements:
 * Serverless development on AWS stack
