@@ -67,7 +67,7 @@ bodyClass: page-home
                 </div>
             </div>
             <div class="row mt-4">
-                {% for service in site.data.services %}
+                {% for service in site.data.services.servicesItems %}
                 <div class="col-12 col-md-6 col-xl-4 mb-4">
                     <div class="service">
                         <img src="{{service.icon}}" />
@@ -268,7 +268,7 @@ bodyClass: page-home
                     <a class="mail" href="info@nascent-works.com">info@nascent-works.com</a>
                     <p>Or fill in the form:</p>
                     <!-- <div class="row"> -->
-                        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1YzMSyOPd9Nz5k2zQROxqHXo0CrRbuTGnecslXeXyRh8/formResponse?" class="row" target="hidden_iframe" onsubmit="submitted=true;">       
+                        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1YzMSyOPd9Nz5k2zQROxqHXo0CrRbuTGnecslXeXyRh8/formResponse?" class="row" target="hidden_iframe" onsubmit="submitted=true;">
                              <div class="col-12 col-lg-5">
                                 <input placeholder="Name:" name="entry.1463375896" id="entry.1463375896">
                                 <input placeholder="Email:" name="entry.1509569501" id="entry.1509569501">

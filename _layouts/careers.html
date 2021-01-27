@@ -8,7 +8,44 @@ layout: default
       <div class="row align-items-center">
         <div class="col-12 col-lg-9">
           <h1>{{page.title}}</h1>
-          <div class="careers-positions">{{ content }}</div>
+          <div class="careers-positions">
+            {% for position in site.data.careers.positionItems %}
+              <h2>{{ position.position}}</h2>
+              {% if position.positionRequirements %}
+                <h3>Position requirements:</h3>
+                <ul>
+                  {% for item in position.positionRequirements %}
+                  <li>{{item.positionRequirement}}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+              {% if position.additionalRequirements %}
+                <h3>Additional requirements:</h3>
+                <ul>
+                  {% for item in position.additionalRequirements %}
+                  <li>{{item.additionalRequirement}}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+              {% if position.jobDescription %}
+                <h3>Job description:</h3>
+                <ul>
+                  {% for item in position.jobDescription %}
+                  <li>{{item.descriptionItem}}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+              {% if position.weOffer %}
+                <h3>We offer:</h3>
+                <ul>
+                  {% for item in position.weOffer %}
+                  <li>{{item.weOfferItem}}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+              <a href="#careers-contact" class="primary-btn careers-apply-btn">Apply</a>
+            {% endfor %}
+          </div>
           <div id="careers-contact">
             <h2>Applying</h2>
             <p>
