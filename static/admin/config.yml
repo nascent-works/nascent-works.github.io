@@ -1,0 +1,71 @@
+backend:
+  name: github
+  branch: master
+  repo: nascent-works/nascent-works.github.io
+  identity_url: "https://nascent-works.com/.netlify/identity"
+  gateway_url: "https://nascent-works.com/.netlify/git"
+  squash_merges: true
+  base_url: https://us-central1-nascent-home.cloudfunctions.net
+  auth_endpoint: /oauth/auth
+
+local_backend: true
+
+publish_mode: editorial_workflow
+
+media_folder: assets/img
+public_folder: assets/img
+
+collections:
+  - label: "Services"
+    name: "services"
+    editor:
+      preview: true
+    files:
+      - label: "Services list"
+        name: Services
+        file: "_data/services.yml"
+        create: true
+        fields:
+          - label: "Services items"
+            name: "servicesItems"
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Icon", name: "icon", widget: image, required: true  }
+  - label: "Posts"
+    label_singular: "Post"
+    name: posts
+    folder: "_posts"
+    extension: "markdown"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{permalink}}"
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: title, widget: string}
+      - {label: "Layout (don't change)", format: "frontmatter", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Categories", format: "frontmatter", name: "categories", widget: "string", default: "[Product development]"}
+      - {label: "Category", format: "frontmatter", name: "category", widget: "string"}
+      - {label: "Smaller image (shown in list)", format: "frontmatter", name: "img_thumb", widget: "image", required: true }
+      - {label: "Image (shown in post page)", format: "frontmatter", name: "img_full", widget: "image", required: true }
+      - label: "Post Info (only first paragraph shown in list)"
+        name: "body"
+        widget: markdown
+  - label: "Jobs"
+    label_singular: "Job"
+    name: job
+    folder: "_jobs"
+    extension: "markdown"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{permalink}}"
+    editor:
+      preview: true
+    fields:
+      - {label: "Title (unique, only displayed in CMS)", name: title, widget: string}
+      - {label: "Layout (don't change)", format: "frontmatter", name: "layout", widget: "hidden", default: "careers"}
+      - label: "Position content"
+        name: "body"
+        widget: markdown
