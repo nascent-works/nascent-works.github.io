@@ -399,24 +399,13 @@ footer {
     }
 }
 
-@media (min-width: 1600px) {
-    #services nav {
-        position: absolute;
-        left: 170px;
-    }
-    #portfolio .cav_nav {
-        left: 170px;
-        position: absolute;
-    }
-}
-
-@media (min-width: 1690px) {
+@media (min-width: 1800px) {
     #services nav {
         position: absolute;
         left: 80px;
     }
     #portfolio .cav_nav {
-        left: 80px;
+        left: 170px;
         position: absolute;
     }
 }
