@@ -2,27 +2,27 @@ servicesItems:
   - title: Deploy intelligent machine learning applications
     text: Benefit from an optimized on demand machine learning processing that will
       transform your applications into intelligent backers of your business.
-    icon: assets/svg/machine-learning.svg
+    icon: assets/img/machine-learning.svg
   - title: Reduce time to market
     text: Serverless and cloud deployments cuts infrastructure related effort time
       to a minimum and allows to focus development on business critical
       functionality from day one.
-    icon: assets/svg/stopwatch.svg
+    icon: assets/img/stopwatch.svg
   - title: Cut infrastructure costs
     text: Minimize spending on infrastructure development and maintenance required
       to run your applications. Optimize computing operations without increasing
       owned IT infrastructure footprint.
-    icon: assets/svg/cost.svg
+    icon: assets/img/cost.svg
   - title: Add flexibility​
     text: Add additional application capacities or scale down as you go. Use
       optimized machine learning hardware on demand.
-    icon: assets/svg/flexible.svg
+    icon: assets/img/flexible.svg
   - title: Improve service availability
     text: Go global in a fortnight! Expand the reach and service quality delivery to
       specific geographic markets.
-    icon: assets/svg/world.svg
+    icon: assets/img/world.svg
   - title: Protect your data
     text: Benefit from security infrastructure best practices provided with cloud
       the environment and protect your data using the highest security
       standards.
-    icon: assets/svg/encrypt.svg
+    icon: assets/img/encrypt.svg

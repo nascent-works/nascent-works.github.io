@@ -3,7 +3,7 @@ $alt: #80E4FE;
 $black: #333333;
 body {
     font-family: 'Rubik';
-    background-image: url(/assets/svg/bg.svg);
+    background-image: url(/assets/img/bg.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -436,7 +436,7 @@ footer {
         border-color: $black;
     }
     .navbar-toggler-icon {
-        background-image: url("../../assets/svg/nav.svg");
+        background-image: url("../../assets/img/nav.svg");
     }
     header nav {
         padding: 20px 150px;

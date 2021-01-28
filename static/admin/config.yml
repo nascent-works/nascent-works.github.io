@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: connecting-firebase
+  branch: master
   repo: nascent-works/nascent-works.github.io
   identity_url: "https://nascent-works.com/.netlify/identity"
   gateway_url: "https://nascent-works.com/.netlify/git"
@@ -21,8 +21,8 @@ collections:
     editor:
       preview: true
     files:
-      - label: "Service"
-        name: Service
+      - label: "Services list"
+        name: Services
         file: "_data/services.yml"
         create: true
         fields:
@@ -33,38 +33,39 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "string" }
               - { label: "Icon", name: "icon", widget: image, required: true  }
-  - label: "Careers"
-    name: "careers"
+  - label: "Posts"
+    label_singular: "Post"
+    name: posts
+    folder: "_posts"
+    extension: "markdown"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{permalink}}"
     editor:
       preview: true
-    files:
-      - label: "Position"
-        name: position
-        file: "_data/careers.yml"
-        create: true
-        fields:
-          - label: "Position items"
-            name: "positionItems"
-            widget: list
-            fields:
-              - { label: "Position name", name: "position", widget: "string" }
-              - label: "Position requirements"
-                name: positionRequirements
-                widget: list
-                fields:
-                  - {label: "Requirement item", name: positionRequirement, widget: string}
-              - label: "Additional requirements"
-                name: additionalRequirements
-                widget: list
-                fields:
-                  - {label: "Requirement item", name: additionalRequirement, widget: string}
-              - label: "Job description"
-                name: jobDescription
-                widget: list
-                fields:
-                  - {label: "Description item", name: descriptionItem, widget: string}
-              - label: "We offer"
-                name: weOffer
-                widget: list
-                fields:
-                  - {label: "We offer item", name: weOfferItem, widget: string}
+    fields:
+      - {label: "Title", name: title, widget: string}
+      - {label: "Layout (don't change)", format: "frontmatter", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Categories", format: "frontmatter", name: "categories", widget: "string", default: "[Product development]"}
+      - {label: "Category", format: "frontmatter", name: "category", widget: "string"}
+      - {label: "Smaller image (shown in list)", format: "frontmatter", name: "img_thumb", widget: "image", required: true }
+      - {label: "Image (shown in post page)", format: "frontmatter", name: "img_full", widget: "image", required: true }
+      - label: "Post Info (only first paragraph shown in list)"
+        name: "body"
+        widget: markdown
+  - label: "Jobs"
+    label_singular: "Job"
+    name: job
+    folder: "_jobs"
+    extension: "markdown"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{permalink}}"
+    editor:
+      preview: true
+    fields:
+      - {label: "Title (unique, only displayed in CMS)", name: title, widget: string}
+      - {label: "Layout (don't change)", format: "frontmatter", name: "layout", widget: "hidden", default: "careers"}
+      - label: "Position content"
+        name: "body"
+        widget: markdown
