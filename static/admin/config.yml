@@ -16,12 +16,12 @@ media_folder: assets/img
 public_folder: assets/img
 
 collections:
-  - label: "Services"
+  - label: "What we do"
     name: "services"
     editor:
       preview: true
     files:
-      - label: "Services list"
+      - label: "Items"
         name: Services
         file: "_data/services.yml"
         create: true
@@ -33,8 +33,8 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "string" }
               - { label: "Icon", name: "icon", widget: image, required: true  }
-  - label: "Posts"
-    label_singular: "Post"
+  - label: "Portfolio"
+    label_singular: "Portfolio item"
     name: posts
     folder: "_posts"
     extension: "markdown"
@@ -46,14 +46,14 @@ collections:
     fields:
       - {label: "Title", name: title, widget: string}
       - {label: "Layout (don't change)", format: "frontmatter", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Categories", format: "frontmatter", name: "categories", widget: "string", default: "[Product development]"}
+      - {label: "Categories (no need to change)", format: "frontmatter", name: "categories", widget: "string", default: "[Product development]"}
       - {label: "Category", format: "frontmatter", name: "category", widget: "string"}
       - {label: "Smaller image (shown in list)", format: "frontmatter", name: "img_thumb", widget: "image", required: true }
       - {label: "Image (shown in post page)", format: "frontmatter", name: "img_full", widget: "image", required: true }
       - label: "Post Info (only first paragraph shown in list)"
         name: "body"
         widget: markdown
-  - label: "Jobs"
+  - label: "Careers"
     label_singular: "Job"
     name: job
     folder: "_jobs"
