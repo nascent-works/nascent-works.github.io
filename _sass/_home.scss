@@ -121,6 +121,26 @@ header {
     }
 }
 
+.simple-btn {
+    margin: 5px;
+    border: 2px solid $black;
+    padding: 13px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: $black !important;
+    font-weight: 500;
+    display: inline-block;
+    color: black;
+    &:hover {
+        text-decoration: none;
+        color: $black;
+    }
+
+    @media (max-width: 600px) {
+        padding: 7px 25px;
+    }
+}
+
 #landing {
     h1 {
         line-height: 90px;
@@ -375,19 +395,19 @@ footer {
 .careers {
     margin-top: 150px;
 
-    h2 {
-        word-break: break-word;
+    .careers-job-links-container{
+        margin-top: 87px;
     }
 
     .careers-positions {
-        h2:first-child {
-            padding-top: 175px;
+        .careers-job-container {
+            word-break: break-word;
+            padding-top: 87px;
         }
 
-        h2:not(:first-child) {
+        .careers-job-container:not(:nth-child(2)) {
             margin-top: 87px;
             border-top: 1px solid;
-            padding-top: 87px;
         }
     }
 
