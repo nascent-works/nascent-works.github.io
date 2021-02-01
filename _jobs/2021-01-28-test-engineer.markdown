@@ -22,5 +22,5 @@ order: 50
 * Work on greenfield projects using cloud technologies
 * Knowledge sharing inside team of professionals
 * Trainings
-* Possibility for a constant grow
+* Possibility for a constant growth
 * Work from anywhere

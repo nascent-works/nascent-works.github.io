@@ -42,5 +42,5 @@ order: 20
 * Work in innovative projects using new Cloud technologies
 * Knowledge sharing inside a team of professionals
 * Trainings
-* Possibility for a constant grow
+* Possibility for a constant growth
 * Work from anywhere
