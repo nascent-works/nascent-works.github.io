@@ -1,5 +1,6 @@
 ---
-title:  "Senior full stack/UI developer"
+title:  "Senior full stack / UI developer"
+order: 40
 ---
 ## Senior full stack/UI developer
 

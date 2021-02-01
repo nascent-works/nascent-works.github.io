@@ -9,9 +9,16 @@ layout: default
         <div class="col-12 col-lg-9">
           <h1>Careers</h1>
           <div class="careers-positions">
+            <div class="careers-job-links-container">
+              {% for position in site.jobs %}
+                <a href="#{{position.slug}}-position" class="simple-btn">{{position.title}}</a>
+              {% endfor %}
+            </div>
             {% for position in site.jobs %}
-              {{position.content}}
-              <a href="#careers-contact" class="primary-btn careers-apply-btn">Apply</a>
+              <div class="careers-job-container" id="{{position.slug}}-position">
+                {{position.content}}
+                <a href="#careers-contact" class="primary-btn">Apply</a>
+              </div>
             {% endfor %}
           </div>
           <div id="careers-contact">

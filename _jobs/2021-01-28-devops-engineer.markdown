@@ -1,5 +1,6 @@
 ---
-title:  "Devops Engineer"
+title: Devops Engineer
+order: 20
 ---
 ## Devops Engineer
 
@@ -41,5 +42,5 @@ title:  "Devops Engineer"
 * Work in innovative projects using new Cloud technologies
 * Knowledge sharing inside a team of professionals
 * Trainings
-* Possibility for a constant grow
+* Possibility for a constant growth
 * Work from anywhere

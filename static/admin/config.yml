@@ -65,7 +65,7 @@ collections:
       preview: true
     fields:
       - {label: "Title (unique, only displayed in CMS)", name: title, widget: string}
-      - {label: "Layout (don't change)", format: "frontmatter", name: "layout", widget: "hidden", default: "careers"}
+      - {label: "Order", format: "frontmatter", name: "order", widget: number}
       - label: "Position content"
         name: "body"
         widget: markdown
