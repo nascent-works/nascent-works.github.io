@@ -1,6 +1,6 @@
 ---
 title: Business analyst / product owner
-order: 10
+order: 2
 ---
 ## Business analyst/product owner
 
