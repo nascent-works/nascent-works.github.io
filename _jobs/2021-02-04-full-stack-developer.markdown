@@ -1,5 +1,5 @@
 ---
-title: Session full stack developer
+title: Senior full stack developer
 link: full-stack-developer
 order: 40
 ---
