@@ -1,5 +1,6 @@
 ---
-title:  "Lead Developer in product team"
+title: Lead Developer in product team
+link: lead-developer-in-product-team-position
 order: 30
 ---
 ## Lead Developer in product team

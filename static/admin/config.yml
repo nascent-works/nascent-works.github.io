@@ -64,7 +64,8 @@ collections:
     editor:
       preview: true
     fields:
-      - {label: "Title (unique, only displayed in CMS)", name: title, widget: string}
+      - {label: "Title (unique, displayed in job buttons)", name: title, widget: string}
+      - {label: "Link (unique, only letters, numbers and dashes, no spaces)", name: link, widget: string}
       - {label: "Order", format: "frontmatter", name: "order", widget: number}
       - label: "Position content"
         name: "body"
