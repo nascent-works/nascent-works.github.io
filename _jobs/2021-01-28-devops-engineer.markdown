@@ -1,6 +1,7 @@
 ---
 title: Devops Engineer
-order: 1
+link: devops-engineer-position
+order: 20
 ---
 ## Devops Engineer
 

@@ -11,11 +11,11 @@ layout: default
           <div class="careers-positions">
             <div class="careers-job-links-container">
               {% for position in site.jobs %}
-                <a href="#{{position.slug}}-position" class="simple-btn">{{position.title}}</a>
+                <a href="#{{position.link}}" class="simple-btn">{{position.title}}</a>
               {% endfor %}
             </div>
             {% for position in site.jobs %}
-              <div class="careers-job-container" id="{{position.slug}}-position">
+              <div class="careers-job-container" id="{{position.link}}">
                 {{position.content}}
                 <a href="#careers-contact" class="primary-btn">Apply</a>
               </div>
