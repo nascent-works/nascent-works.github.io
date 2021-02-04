@@ -1,9 +1,9 @@
 ---
-title: Lead Developer in product team
+title: Lead Developer in Product Team
 link: lead-developer-in-product-team-position
 order: 30
 ---
-## Lead Developer in product team
+## Lead Developer in Product Team
 
 ### Position requirements:
 * Full stack NodeJs experience:
