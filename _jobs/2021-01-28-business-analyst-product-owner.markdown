@@ -1,9 +1,9 @@
 ---
-title: Business analyst / product owner
+title: Business Analyst/Product Owner
 link: business-analyst-product-owner-position
 order: 10
 ---
-## Business analyst/product owner
+## Business Analyst/Product Owner
 
 ### Position requirements:
 * Experience of BA or QA roles in software development projects
