@@ -1,9 +1,9 @@
 ---
-title: Senior full stack developer
+title: Senior Full Stack Developer
 link: full-stack-developer
 order: 40
 ---
-## Senior full stack/UI developer
+## Senior Full Stack/UI Developer
 
 ### Position requirements:
 * NodeJs full stack development experience
