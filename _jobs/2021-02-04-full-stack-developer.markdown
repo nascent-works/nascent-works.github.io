@@ -1,6 +1,6 @@
 ---
 title: Full stack developer
-link: full-stack-developer-position
+link: full-stack-developer
 order: 40
 ---
 ## Senior full stack/UI developer
