@@ -1,7 +1,7 @@
 ---
-title: Senior test enginee
+title: Senior Test Engineer
 link: senior-tester
-order: 20
+order: 10
 ---
 ## Senior Test Engineer
 
