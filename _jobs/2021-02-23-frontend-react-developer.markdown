@@ -1,6 +1,6 @@
 ---
 title: Frontend (React) Developer
-link: "#react"
+link: react
 order: 10
 ---
 ## Frontend (React) Developer
