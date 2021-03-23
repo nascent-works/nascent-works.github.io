@@ -1,6 +1,6 @@
 ---
 title: Business Analyst/Product Owner
-link: business-analyst-product-owner-position
+link: BA
 order: 10
 ---
 ## Business Analyst/Product Owner
