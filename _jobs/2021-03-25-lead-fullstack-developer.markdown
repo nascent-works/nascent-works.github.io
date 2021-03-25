@@ -1,6 +1,6 @@
 ---
 title: Lead Fullstack Developer
-link: "#lead-fullstack"
+link: lead-fullstack
 order: 1
 ---
 ## Lead Fullstack Developer
