@@ -7,7 +7,7 @@ order: 50
 
 ### Position requirements:
 * 2+ years of experience in manual testing
-* Experience in both manual and automation testing
+* Interest in both manual and automation testing
 * Understanding of software QA methodologies, tools (JIRA), and processes
 * Good spoken and written English
 * Communication/problem solving skills
