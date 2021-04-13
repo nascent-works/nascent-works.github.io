@@ -7,7 +7,7 @@ order: 50
 
 ### Position requirements:
 * 2+ years of experience in manual testing
-* Interest in both manual and automation testing
+* Experience in both manual and automation testing
 * Understanding of software QA methodologies, tools (JIRA), and processes
 * Good spoken and written English
 * Communication/problem solving skills
@@ -15,6 +15,7 @@ order: 50
 ### Job description:
 * Perform functional non-functional testing of web applications
 * Design and execute manual test cases and test scenarios
+* Compose automated functional and non-functional tests
 * Report software defects and work with the development team to resolve them
 * Work closely with product managers, developers, and other QA team members to ensure high-quality products
 * Share the best QA practices with the QA community in the organization
