@@ -9,22 +9,28 @@ img_thumb: assets/img/thumb/sim.jpg
 img_full: assets/img/sim.jpg
 ---
 We are developing an esports platform for sim racing community. The platform will simplify the hosting of racing leagues and tournaments, feature automatic race result collection and racer performance data tracking. The platform will include experimental in-game economy to foster relations between sponsors, teams, players and modding community. The project is developed in partnership with RaceDepartment- the largest sim racing community in the world.
+
 <!--more-->
 
 ## Move to open beta (April, 2021)
+
 It’s taken a while to get here but we are finally in a position to move Simracing.gp (SGP) to open beta allowing anyone to come and try the platform and help us test features. SGP is a collection of tools which makes creating and finding online races easier. We have been testing and tweaking the platform over the last few months and we now invite you to come and try the platform for yourself.
-Read further on https://www.simracing.gp/press-release-april
+Read further on <https://www.simracing.gp/press-release-april>
 
 ## In a nutshell
+
 Simracing.gp is an online platform for sim racing and esports enthusiasts currently under development by Nascent. The platform aims to unite a worldwide sim racing community under one banner with the tools to simplify racing online.
 
 ## The challenge
+
 Sim racing encompasses a large dedicated online community. The improvement in sim racing game titles - great in game physics, large selection of cars and tracks - brought simulation racing a step closer to real world motorsports. However, the competitive organized online racing experience changed very little. Drivers struggle to find tournaments to take part in where they can meet with similarly skilled clean racers. Teams face multiple challenges in organizing tournaments and keeping drivers engaged, including notifying them about upcoming races, engaging drivers between tournaments or recruiting new members. Tournament organizers still default to an Excel guy to manually calculate standings and race result after a race weekend. Most race performance data - best laps and personal achievements - get lost over time as this information is not collected. Finally ecosystem participants have a difficulty to connect with commercial sponsors.    
 
 ## The platform
+
 Simracing.gp aims to become a one-stop-shop for everything simracing and esports. It provides participants with technological tools to participate and organize competitive online multiplayer races - be it a weekend race among friends or a global esports competition.
 
 ## The Simracing.gp platform includes:
+
 * Dedicated servers to launch racing sessions.
 * Support for multiple racing game titles. 
 * Automate race result import after a racing session eliminating the task to collect this data manually. 
