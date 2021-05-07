@@ -19,7 +19,7 @@ order: 1
 
 * Define application architecture
 * Motivate technical decisions to business stakeholders
-* Couch and lead a team of developers
+* Coach and lead a team of developers
 * Implement complex components, system parts in React (possibly Next.js), TypeScript, styled components
 * Contribute to the team’s decisions and general well being
 * Review code of your colleagues
