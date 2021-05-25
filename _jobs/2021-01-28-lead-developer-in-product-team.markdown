@@ -1,6 +1,6 @@
 ---
 title: Lead Developer in Product Team
-link: lead-developer-in-product-team-position
+link: lead-developer
 order: 30
 ---
 ## Lead Developer in Product Team
