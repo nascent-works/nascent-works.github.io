@@ -1,24 +1,27 @@
 ---
 title: Senior Full Stack Developer
-link: full-stack-developer
+link: full-stack-dev
 order: 40
 ---
 ## Senior Full Stack/UI Developer
 
-### Position requirements:
+### About us
+Nascent is a technology investor with a focus on experimental digital products. Our key areas of interest include AI solutions (computer vision, machine learning), cloud services. While working with clients we focus on mobile applications that include complex and  AI solutions as well.
+We strive to be tech consultants for our US based clients while solving their business problems.
+
+
+### Technologies you will face with:
 * NodeJs full stack development experience
 * Angular/React/Vuejs
 * Typescript
 * MongoDB
 * Webpack
-
-### Additional requirements:
 * NestJs
 * Docker
 * CI/CD
 * SQL
 
-### Job description:
+### Your daily work will include:
 * Make design/architectural decisions
 * Coach and lead team of developers
 * Review code
@@ -27,8 +30,11 @@ order: 40
 
 ### We offer:
 * Work with innovative product using new technologies
-* Freedom to make decisions
 * Knowledge sharing inside team of professionals
 * Trainings
 * Possibility for constant growth
+* A knowledgeable, high-achieving, experienced and friendly team
 * Work from anywhere
+
+
+
