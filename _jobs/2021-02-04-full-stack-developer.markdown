@@ -12,7 +12,7 @@ We strive to be tech consultants for our US based clients while solving their bu
 
 ### Technologies you will face with:
 * NodeJs full stack development experience
-* Angular/React/Vuejs
+* Angular/Vuejs
 * Typescript
 * MongoDB
 * Webpack
