@@ -19,6 +19,7 @@ order: 10
 * Docker
 * CI/CD
 * SQL
+* Automated testing (TDD)
 
 ### If you have these skills:
 * Ability and desire to learn new things
