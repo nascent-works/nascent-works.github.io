@@ -8,10 +8,12 @@ order: 10
 ### If you are experienced in :
 * Angular
 * NodeJs
-* Typescript
+* Typescript/Javascript
 
 ### More to that you know:
 * NestJs
+* RxJS/NGRX
+* SASS/SCSS
 * Mongo DB
 * Webpack
 * Docker
