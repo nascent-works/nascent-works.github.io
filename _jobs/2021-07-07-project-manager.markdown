@@ -23,7 +23,7 @@ order: 1
 * Ability to prioritize and manage work for a team
 * Ability to work across multiple projects and multiple locations
 * Analytical and problem solving skills
-* Excellent knowledge of Lithuanian and English languages
+* Excellent knowledge of English languages
 
 
 ### We offer:
