@@ -15,7 +15,7 @@ We strive to be tech consultants for our US based clients while solving their bu
 * Knowledge sharing mindset
 * Good spoken and written English
 * Communication/problem solving skills
-* Ability to own quality assurance part the project
+* Ability to own quality assurance part of the project
 
 ### Your daily work will include:
 * Perform functional, non-functional testing of web applications
